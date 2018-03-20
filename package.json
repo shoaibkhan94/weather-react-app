@@ -7,7 +7,7 @@
     "start": "node index.js",
     "test": "export NODE_ENV=test || set \"NODE_ENV=test\" && mocha tests/**/*.test.js",
     "watch": "nodemon index.js",
-    "client": "cd public && npm start",
+    "client": "cd client && npm start",
     "dev": "concurrently \"npm run start\" \"npm run client\""
   },
   "author": "Shoaib Khan <shoaibkhan1994@gmail.com>",
