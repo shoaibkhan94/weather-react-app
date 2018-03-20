@@ -6,7 +6,7 @@ import 'materialize-css/dist/js/materialize';
 import './App.css';
 import WeatherList from './WeatherList';
 
-const API_URL = 'http://api.openweathermap.org/data/2.5/forecast/daily?APPID=4368307ca81118f1e7f28256589c0e60&cnt=5&q=Pune&units=metric&mode=json';
+const API_URL = 'https://api.openweathermap.org/data/2.5/forecast/daily?APPID=4368307ca81118f1e7f28256589c0e60&cnt=5&q=Pune&units=metric&mode=json';
 
 class App extends Component {
 
