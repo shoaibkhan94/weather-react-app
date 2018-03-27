@@ -1,6 +1,5 @@
-require('./config/config');
-const express = require('express');
-const bodyParser = require('body-parser');
+const express = require("express");
+const bodyParser = require("body-parser");
 
 var app = express();
 
@@ -9,15 +8,12 @@ const PORT = process.env.PORT || 4000;
 
 app.use(bodyParser.json());
 
-if (process.env.NODE_ENV === 'production') {
-    app.use(express.static('client/build'));
-}
-else{
-    app.use(express.static('client/public'));
-}
+app.use(express.static("client/build"));
+
 
 app.listen(PORT, () => {
-    console.log("Server Listening on port ", PORT);
+// eslint-disable-next-line no-console
+	console.log(`App Running at http://localhost:${PORT}`);
 });
 
 module.exports = {app};

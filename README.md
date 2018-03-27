@@ -2,18 +2,23 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-Contribution guidelines:
+Setup:
 - `git clone https://github.com/shoaibkhan94/weather-react-app.git`
 - `npm install && cd client && npm install`
-- `cd .. && npm run dev`
 
-Building: 
-- `cd client && npm run build`
+Contribute:
+- `npm run dev`
+
+Build: 
+- `npm run build`
 
 Run:
-- `git clone https://github.com/shoaibkhan94/weather-react-app.git`
-- `npm install && cd client && npm install`
-- `npm run start && npm run client`
+- `npm start`
+
+
+Test:
+- `npm run test`
+
 
 Deployed at : [Heroku](https://weather-app-shoaib.herokuapp.com/)
 
